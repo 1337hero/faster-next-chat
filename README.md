@@ -1,4 +1,34 @@
-# MK3Y Chat
+# ⚡ Faster Chat
+<p align="left">
+  <!-- Framework -->
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs" alt="Next.js" />
+  </a>
+  <!-- Language -->
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" alt="TypeScript" />
+  </a>
+  <!-- Database -->
+  <a href="https://dexie.org/">
+    <img src="https://img.shields.io/badge/Dexie-IndexedDB-orange?logo=javascript" alt="Dexie" />
+  </a>
+  <!-- Styling -->
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/TailwindCSS-Catppuccin-38B2AC?logo=tailwindcss" alt="TailwindCSS" />
+  </a>
+  <!-- AI SDK -->
+  <a href="https://sdk.vercel.ai/">
+    <img src="https://img.shields.io/badge/Vercel%20AI%20SDK-Edge%20Streaming-black?logo=vercel" alt="Vercel AI SDK" />
+  </a>
+  <!-- Package Manager -->
+  <a href="https://bun.sh/">
+    <img src="https://img.shields.io/badge/Bun-Fast%20Builds-yellow?logo=bun" alt="Bun" />
+  </a>
+  <!-- License -->
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+  </a>
+</p>
 
 ## About
 A blazing-fast, local-first AI chat application inspired by T3 Chat's performance philosophy. Built with Next.js 15, TypeScript, and IndexedDB for instant responses and seamless offline functionality.
