@@ -35,6 +35,10 @@ A blazing-fast, local-first AI chat application inspired by T3 Chat's performanc
 
 This project takes T3 Chat's core insights - that local-first architecture can deliver 2x ChatGPT speed - and implements them with modern tooling. Special thanks to [@t3dotgg](https://github.com/t3dotgg) for the inspiration and the excellent breakdown in [How I Built T3 Chat in 5 Days](https://youtu.be/QLvIoi2s1zY?si=tseIII4RsH2ZX-1o).
 
+## Current Status
+
+I decided to abandon this project. It was a fun learning experince. I also wanted my own chat interface on my local network - but the fact remains that for me, Open Web UI works best for my personal goals than me spending a large amount of time building a custom project. Anyone else is welcome to this code base.
+
 ## Features
 - ⚡ **Instant Navigation** - Local-first architecture with IndexedDB via Dexie
 - 🤖 **Multi-Provider Support** - Anthropic, OpenAI, Groq, DeepSeek with easy model switching
@@ -73,47 +77,6 @@ I am using a local-first streaming approach with IndexedDB via [Dexie.js](https:
   - Smooth user experience
 
 The local first approach is what makes the interface feel fast, especially switching between chats.
-
-## Roadmap
-
-### ✅ Completed
-- Delete chats functionality
-- System prompts with customization
-- Multi-model support (Anthropic, OpenAI, Groq, DeepSeek)
-- Local persistence with IndexedDB
-
-### 🚧 In Progress / Planned Features
-
-#### Phase 1: File Uploads & Enhanced UX
-- [ ] **File Upload Support** - Drag-and-drop with multimodal AI integration
-  - Image, PDF, and document support
-  - In-chat previews with react-pdf
-  - Thumbnail generation for images
-- [ ] **Tab Management** - Multiple concurrent chats with easy switching
-- [ ] **Search Functionality** - Full-text search across all chats and messages
-- [ ] **Improved Code Blocks** - Syntax highlighting with better performance
-
-#### Phase 2: Sync & Collaboration
-- [ ] **Cross-Device Sync** - Optional P2P sync using WebRTC
-  - Export/import for manual backup
-  - Room-based sync with QR codes
-  - Privacy-first, no central server
-- [ ] **Enhanced Model Selector** - Favorites, comparison mode, quick switching
-
-#### Phase 3: Performance & Deployment
-- [ ] **Markdown Optimization** - Chunked rendering for 60+ FPS
-- [ ] **Virtual Scrolling** - Handle thousands of messages smoothly
-- [ ] **Easy Deployment** - One-click deploy to Vercel, Docker, or self-hosted
-- [ ] **Environment Management** - Guided setup with validation
-
-#### Phase 4: Enterprise Features
-- [ ] **Authentication** - Optional user accounts with data isolation
-- [ ] **Team Collaboration** - Shared workspaces with permissions
-- [ ] **Analytics Dashboard** - Usage metrics and model performance
-- [ ] **Plugin System** - Extensible architecture for custom features
-
-See [Implementation Plan](docs/plans/250116-01a-multifeature-enhancement.md) for detailed technical specifications.
-
 
 ## Tech Stack
 
